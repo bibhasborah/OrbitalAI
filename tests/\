@@ -1,0 +1,5 @@
+from q_ai.parser.qchem import QChemParser
+
+parser = QChemParser("examples/qchem/sample.out")
+
+print(parser.total_energy())
